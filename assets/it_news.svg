@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="IT NEWS">
+  <rect width="400" height="225" fill="#0B3954"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="160" y="78" width="80" height="80" rx="8" fill="none" stroke="#BFD7EA" stroke-width="7"/><rect x="182" y="100" width="36" height="36" fill="#BFD7EA" opacity="0.5"/><path d="M175 78V58 M200 78V58 M225 78V58 M175 178v-20 M200 178v-20 M225 178v-20 M160 100H140 M160 125h-20 M160 150h-20 M260 100h-20 M260 125h-20 M260 150h-20" stroke="#BFD7EA" stroke-width="6"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#BFD7EA">IT NEWS</text>
+</svg>

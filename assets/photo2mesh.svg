@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="photo2mesh">
+  <rect width="400" height="225" fill="#14532D"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="140" y="70" width="120" height="95" rx="8" fill="none" stroke="#BBF7D0" stroke-width="7"/><circle cx="172" cy="95" r="9" fill="#BBF7D0"/><polyline points="148,158 190,118 218,142 238,124 252,138 252,158" fill="none" stroke="#BBF7D0" stroke-width="6" stroke-linejoin="round"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#BBF7D0">photo2mesh</text>
+</svg>

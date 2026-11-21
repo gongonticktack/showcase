@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="MILo Video to 3D">
+  <rect width="400" height="225" fill="#7B341E"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="140" y="62" width="120" height="108" rx="8" fill="none" stroke="#FAD7A0" stroke-width="7"/><line x1="164" y1="62" x2="164" y2="170" stroke="#FAD7A0" stroke-width="5" opacity="0.8"/><line x1="236" y1="62" x2="236" y2="170" stroke="#FAD7A0" stroke-width="5" opacity="0.8"/><path d="M150 84h8 M150 106h8 M150 128h8 M150 150h8 M242 84h8 M242 106h8 M242 128h8 M242 150h8" stroke="#FAD7A0" stroke-width="5"/><polygon points="188,96 224,116 188,136" fill="#FAD7A0"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#FAD7A0">MILo Video to 3D</text>
+</svg>

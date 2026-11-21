@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="YT3">
+  <rect width="400" height="225" fill="#8E2A2A"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="135" y="62" width="130" height="112" rx="16" fill="none" stroke="#FFD6D6" stroke-width="7"/><polygon points="185,92 232,118 185,144" fill="#FFD6D6"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#FFD6D6">YT3</text>
+</svg>

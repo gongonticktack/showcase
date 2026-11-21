@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="Earnings Atelier">
+  <rect width="400" height="225" fill="#393E46"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="140" y="120" width="26" height="55" fill="#FFD369" opacity="0.55"/><rect x="180" y="95" width="26" height="80" fill="#FFD369" opacity="0.8"/><rect x="220" y="70" width="26" height="105" fill="#FFD369"/><line x1="130" y1="180" x2="275" y2="180" stroke="#FFD369" stroke-width="5" opacity="0.7"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#FFD369">Earnings Atelier</text>
+</svg>

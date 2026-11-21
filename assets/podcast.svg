@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="仕組みを基礎から（ITAIST）">
+  <rect width="400" height="225" fill="#364F6B"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="182" y="52" width="36" height="72" rx="18" fill="#FC5185"/><path d="M160 108 a40 40 0 0 0 80 0" fill="none" stroke="#FC5185" stroke-width="7"/><line x1="200" y1="148" x2="200" y2="178" stroke="#FC5185" stroke-width="7"/><line x1="172" y1="178" x2="228" y2="178" stroke="#FC5185" stroke-width="7"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#FC5185">仕組みを基礎から（ITAIST）</text>
+</svg>

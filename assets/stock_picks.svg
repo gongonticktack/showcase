@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="株ピック記録">
+  <rect width="400" height="225" fill="#222831"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <polyline points="130,160 175,120 205,140 245,85 275,100" fill="none" stroke="#00ADB5" stroke-width="7" stroke-linejoin="round"/><line x1="125" y1="175" x2="280" y2="175" stroke="#00ADB5" stroke-width="5" opacity="0.7"/><circle cx="245" cy="85" r="7" fill="#00ADB5"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#00ADB5">株ピック記録</text>
+</svg>

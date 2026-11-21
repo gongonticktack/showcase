@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>リポジトリ一覧</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="palette-stripe" aria-hidden="true">
+    <span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span>
+  </div>
+  <div class="header-inner">
+    <div class="header-titles">
+      <h1>リポジトリ一覧</h1>
+      <p class="header-sub">GitHub リポジトリのショーケース</p>
+    </div>
+    <div class="palette-dropdown" id="palette-dropdown">
+      <button type="button" class="palette-button" id="palette-button" aria-haspopup="listbox" aria-expanded="false" aria-label="カラーパレット">
+        <span class="palette-swatch" id="palette-button-swatch" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span class="palette-button-name" id="palette-button-name"></span>
+        <span class="palette-caret" aria-hidden="true">▽</span>
+      </button>
+      <ul class="palette-menu" id="palette-menu" role="listbox" aria-label="カラーパレット" hidden></ul>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="summary" id="summary" aria-label="集計">
+    <div class="summary-item"><span class="summary-num" id="count-total">–</span><span class="summary-label">リポジトリ</span></div>
+    <div class="summary-item"><span class="summary-num" id="count-web">–</span><span class="summary-label">Webアプリ</span></div>
+    <div class="summary-item"><span class="summary-num" id="count-local">–</span><span class="summary-label">ローカル</span></div>
+    <div class="summary-item"><span class="summary-num" id="count-shown">–</span><span class="summary-label">表示中</span></div>
+  </section>
+
+  <section class="controls" aria-label="検索と絞り込み">
+    <input type="search" id="search" placeholder="検索（名前・説明・言語）" autocomplete="off">
+    <select id="filter-type" aria-label="種別">
+      <option value="">種別：すべて</option>
+      <option value="web">Webアプリ</option>
+      <option value="local">ローカル</option>
+    </select>
+  </section>
+
+  <p class="status-msg" id="status-msg" hidden></p>
+  <div class="cards" id="cards"></div>
+</main>
+
+<footer>
+  <p>データ： Supabase（github_repos）</p>
+</footer>
+
+<div class="modal-overlay" id="modal-overlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button type="button" class="modal-close" id="modal-close" aria-label="閉じる">×</button>
+    <img class="modal-thumb" id="modal-thumb" alt="">
+    <div class="modal-head">
+      <h2 class="modal-title" id="modal-title"></h2>
+      <span class="badge" id="modal-badge"></span>
+    </div>
+    <p class="modal-meta" id="modal-meta"></p>
+    <h3 class="modal-section">このアプリについて</h3>
+    <p class="modal-text" id="modal-description"></p>
+    <h3 class="modal-section">使い方</h3>
+    <p class="modal-text modal-usage" id="modal-usage"></p>
+    <div class="modal-actions">
+      <a class="modal-open" id="modal-open" href="#" target="_blank" rel="noopener noreferrer"></a>
+      <a class="modal-repo" id="modal-repo" href="#" target="_blank" rel="noopener noreferrer">GitHub リポジトリ</a>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

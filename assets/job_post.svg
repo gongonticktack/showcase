@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="求人スキル分析アプリ">
+  <rect width="400" height="225" fill="#0F4C75"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="150" y="95" width="100" height="70" rx="10" fill="none" stroke="#BBE1FA" stroke-width="7"/><path d="M180 95v-12a10 10 0 0 1 10-10h20a10 10 0 0 1 10 10v12" fill="none" stroke="#BBE1FA" stroke-width="7"/><line x1="150" y1="125" x2="250" y2="125" stroke="#BBE1FA" stroke-width="7"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#BBE1FA">求人スキル分析アプリ</text>
+</svg>

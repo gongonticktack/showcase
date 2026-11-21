@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="Music Station / Seed-VC">
+  <rect width="400" height="225" fill="#4A235A"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <path d="M218 60 v70" stroke="#F5B7D0" stroke-width="7"/><path d="M218 60 q28 6 30 34" fill="none" stroke="#F5B7D0" stroke-width="7"/><ellipse cx="196" cy="132" rx="22" ry="16" fill="#F5B7D0" transform="rotate(-18 196 132)"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#F5B7D0">Music Station / Seed-VC</text>
+</svg>

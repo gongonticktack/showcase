@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="STOCK NEWS">
+  <rect width="400" height="225" fill="#1B262C"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <rect x="140" y="65" width="120" height="105" rx="6" fill="none" stroke="#F9ED69" stroke-width="7"/><line x1="158" y1="90" x2="242" y2="90" stroke="#F9ED69" stroke-width="8"/><line x1="158" y1="112" x2="242" y2="112" stroke="#F9ED69" stroke-width="5" opacity="0.7"/><line x1="158" y1="132" x2="242" y2="132" stroke="#F9ED69" stroke-width="5" opacity="0.7"/><line x1="158" y1="152" x2="215" y2="152" stroke="#F9ED69" stroke-width="5" opacity="0.7"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#F9ED69">STOCK NEWS</text>
+</svg>

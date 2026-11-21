@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-label="資格試験学習アプリ">
+  <rect width="400" height="225" fill="#5B4B8A"/>
+  <rect width="400" height="225" fill="#000000" opacity="0.08"/>
+  <circle cx="200" cy="118" r="58" fill="none" stroke="#F6D365" stroke-width="7"/><polyline points="168,118 190,142 236,92" fill="none" stroke="#F6D365" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="205" text-anchor="middle" font-family="'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" font-size="19" font-weight="700" fill="#F6D365">資格試験学習アプリ</text>
+</svg>
