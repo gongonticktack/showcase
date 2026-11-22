@@ -10,9 +10,8 @@ const TYPE_LABELS = {
 // vars:   役割（メイン/サブ/ライト/アクセント）と、パレットから導出した
 //         背景・面・文字色。暗いパレットは暗背景＋明文字、明るいパレットは
 //         明背景＋暗文字になるよう各パレットごとに定義する。
-// darkVars: 端末がダークモードのときだけ使う暗色版（明るいパレットにのみ定義）。
-//         ダークモードでは、元々暗いパレットは vars のまま表示し、明るい
-//         パレットだけ darkVars に切り替える（2026-11-22 Gomi指示）。
+//         端末のダーク/ライトモードでは切り替えず、常にパレットどおり
+//         表示する（2026-11-23 Gomi指示）。
 const PALETTES = [
   {
     name: "Ocean Breeze",
@@ -24,13 +23,7 @@ const PALETTES = [
       text: "#07304F", muted: "#4A6B82", border: "#C4E2F0",
       onMain: "#F4FBFF", headerSub: "#BFE3F5",
     },
-    darkVars: {
-      main: "#1775A1", sub: "#48CAE4", light: "#36ACE2", accent: "#90E0EF",
-      accentText: "#90E0EF",
-      bg: "#07161D", surface: "#0D2530", surfaceMuted: "#163341",
-      text: "#E7F6F9", muted: "#94BEC7", border: "#255065",
-      onMain: "#FFFFFF", headerSub: "#FFFFFF",
-    },
+    
   },
   {
     name: "Summer Pop",
@@ -42,13 +35,7 @@ const PALETTES = [
       text: "#4A2A14", muted: "#8A6A4A", border: "#F3DFB8",
       onMain: "#FFFEF9", headerSub: "#FFE3C2",
     },
-    darkVars: {
-      main: "#C34813", sub: "#FF9770", light: "#EA672E", accent: "#70D6FF",
-      accentText: "#FFD670",
-      bg: "#1B0F09", surface: "#2D1B11", surfaceMuted: "#3D271A",
-      text: "#F9F4E7", muted: "#C7B894", border: "#5E3E2C",
-      onMain: "#FFFFFF", headerSub: "#FFFFFF",
-    },
+    
   },
   {
     name: "Pastel Garden",
@@ -60,13 +47,7 @@ const PALETTES = [
       text: "#3D3A2E", muted: "#75806A", border: "#DDE8C4",
       onMain: "#FEFFFB", headerSub: "#FBD9D9",
     },
-    darkVars: {
-      main: "#317762", sub: "#95E1D3", light: "#47AE8F", accent: "#F38181",
-      accentText: "#F6A8A8",
-      bg: "#0C1713", surface: "#172621", surfaceMuted: "#24332D",
-      text: "#F1F9E7", muted: "#B0C794", border: "#3B4E47",
-      onMain: "#FFFFFF", headerSub: "#FFFFFF",
-    },
+    
   },
   {
     name: "Cotton Candy",
@@ -78,13 +59,7 @@ const PALETTES = [
       text: "#3B2E4F", muted: "#7A6E94", border: "#E2D6F2",
       onMain: "#FEFDFF", headerSub: "#DCCFF2",
     },
-    darkVars: {
-      main: "#7751B8", sub: "#AA96DA", light: "#9375C7", accent: "#FCBAD3",
-      accentText: "#FCBAD3",
-      bg: "#100C18", surface: "#1C1627", surfaceMuted: "#292235",
-      text: "#F9F9E7", muted: "#C7C794", border: "#423851",
-      onMain: "#FFFFFF", headerSub: "#FFFFFF",
-    },
+    
   },
   {
     name: "Midnight Red",
@@ -107,13 +82,7 @@ const PALETTES = [
       text: "#22303F", muted: "#66707C", border: "#E7D9BC",
       onMain: "#FFFEFA", headerSub: "#C7D2DE",
     },
-    darkVars: {
-      main: "#CA2121", sub: "#F07B3F", light: "#DF3A3A", accent: "#FFD460",
-      accentText: "#FFD460",
-      bg: "#0C1118", surface: "#171E27", surfaceMuted: "#232A34",
-      text: "#F9F4E7", muted: "#C7B994", border: "#3A4350",
-      onMain: "#FFFFFF", headerSub: "#FFFFFF",
-    },
+    
   },
   {
     name: "Lagoon Fresh",
@@ -125,13 +94,7 @@ const PALETTES = [
       text: "#123A40", muted: "#527A72", border: "#C6E4D8",
       onMain: "#F7FFF7", headerSub: "#BFE3D9",
     },
-    darkVars: {
-      main: "#207179", sub: "#4ECDC4", light: "#30AAB5", accent: "#FFE66D",
-      accentText: "#FFE66D",
-      bg: "#09191B", surface: "#11292D", surfaceMuted: "#1A383D",
-      text: "#E7F9E7", muted: "#94C794", border: "#2C575E",
-      onMain: "#FFFFFF", headerSub: "#FFFFFF",
-    },
+    
   },
   {
     name: "Peach Sorbet",
@@ -143,13 +106,7 @@ const PALETTES = [
       text: "#43302A", muted: "#8A6E62", border: "#F2DCC4",
       onMain: "#FFFEF8", headerSub: "#FFD9CE",
     },
-    darkVars: {
-      main: "#AA4131", sub: "#A8E6CF", light: "#CB5E4D", accent: "#FFAAA5",
-      accentText: "#FFBDB8",
-      bg: "#190E0A", surface: "#2A1814", surfaceMuted: "#38241E",
-      text: "#F9EEE7", muted: "#C7A894", border: "#573B33",
-      onMain: "#FFFFFF", headerSub: "#FFFFFF",
-    },
+    
   },
   {
     name: "Royal Gold",
@@ -161,13 +118,7 @@ const PALETTES = [
       text: "#182236", muted: "#5E6B82", border: "#D3DAE4",
       onMain: "#FCFDFE", headerSub: "#B9C6D8",
     },
-    darkVars: {
-      main: "#FBA213", sub: "#FCA311", light: "#FBA213", accent: "#8ECAE6",
-      accentText: "#A8D8F0",
-      bg: "#090F1B", surface: "#111A2C", surfaceMuted: "#1B253C",
-      text: "#F0F0F0", muted: "#ADADAD", border: "#2D3C5C",
-      onMain: "#1A1206", headerSub: "#1A1206",
-    },
+    
   },
   {
     name: "Grape Wine",
@@ -198,26 +149,11 @@ const PALETTE_VAR_KEYS = {
   headerSub: "--header-sub",
 };
 
-const darkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
-let activePalette = null;
-
-// ダークモード時は、明るいパレットだけ darkVars（暗色版）に切り替える。
-// 元々暗いパレット（darkVars を持たない）はそのまま使う。
-function effectiveVars(palette) {
-  if (darkModeQuery.matches && palette.darkVars) return palette.darkVars;
-  return palette.vars;
-}
-
-darkModeQuery.addEventListener("change", () => {
-  if (activePalette) applyPalette(activePalette);
-});
 
 function applyPalette(palette) {
-  activePalette = palette;
-  const vars = effectiveVars(palette);
   const root = document.documentElement;
   for (const [key, cssVar] of Object.entries(PALETTE_VAR_KEYS)) {
-    root.style.setProperty(cssVar, vars[key]);
+    root.style.setProperty(cssVar, palette.vars[key]);
   }
   // ストライプはパレット本来の4色をそのまま使う
   const stripe = document.querySelectorAll(".palette-stripe > span");
